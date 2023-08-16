@@ -1,4 +1,4 @@
-﻿using DDD.Unimar.Domain.ValueObjects;
+using DDD.Unimar.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +15,8 @@ namespace DDD.Unimar.Domain.Entities
         public string Email { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
+
+        public List<Disciplina> Disciplinas { get; set; }
 
         public List<Endereco> Enderecos { get; set; }
     }

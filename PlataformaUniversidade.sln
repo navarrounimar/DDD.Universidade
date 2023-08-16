@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Unimar.Domain", "DDD.Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infra.Memory", "DDD.Infra.Memory\DDD.Infra.Memory.csproj", "{27C8CF49-0BE8-4EFE-B364-30E7993E4064}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universidade.WebApplication", "Universidade.WebApplication\Universidade.WebApplication.csproj", "{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{27C8CF49-0BE8-4EFE-B364-30E7993E4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C8CF49-0BE8-4EFE-B364-30E7993E4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C8CF49-0BE8-4EFE-B364-30E7993E4064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{34FF1493-BCE4-425F-B158-811589A05F98} = {AF380563-F5FA-47E9-966D-965CCD40C975}
 		{27C8CF49-0BE8-4EFE-B364-30E7993E4064} = {296D8F99-0C10-4941-8F03-1E2A300B635C}
+		{573FC60C-2D9C-4BEF-A318-0AAC55CEFE06} = {F54944B9-6AD9-41F6-A2E4-FA6DB841BBEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B1C92F5-1FE9-432D-8F78-773645F79D99}
