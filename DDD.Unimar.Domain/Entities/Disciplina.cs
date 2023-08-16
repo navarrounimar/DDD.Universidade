@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DDD.Unimar.Domain.Entities
 {
-    public class Curso
+    public class Disciplina
     {
-        public int CursoId { get; set; }
+        public int DisciplinaId { get; set; }
         public string Nome { get; set; }
         public decimal Valor { get; set; }
         public bool Disponivel { get; set; }
