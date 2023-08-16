@@ -1,0 +1,15 @@
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.deps.json
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.pdb
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.DomainPorject.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.DomainPorject.pdb
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.AssemblyReference.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.AssemblyInfoInputs.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.AssemblyInfo.cs
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.CoreCompileInputs.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.CopyComplete
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\refint\DDD.Infra.MemoryDb.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.pdb
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.Infra.MemoryDb\obj\Debug\net6.0\ref\DDD.Infra.MemoryDb.dll

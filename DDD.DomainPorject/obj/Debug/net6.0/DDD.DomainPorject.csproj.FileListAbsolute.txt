@@ -1,0 +1,12 @@
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\bin\Debug\net6.0\DDD.DomainPorject.deps.json
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\bin\Debug\net6.0\DDD.DomainPorject.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\bin\Debug\net6.0\DDD.DomainPorject.pdb
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.csproj.AssemblyReference.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.AssemblyInfoInputs.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.AssemblyInfo.cs
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.csproj.CoreCompileInputs.cache
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\refint\DDD.DomainPorject.dll
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\DDD.DomainPorject.pdb
+C:\Users\fpnav\source\repos\DDD.Universidade\DDD.DomainPorject\obj\Debug\net6.0\ref\DDD.DomainPorject.dll
