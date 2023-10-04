@@ -10,6 +10,9 @@ namespace DDD.Domain.PicContext
     public  class Pesquisador : User
     {
         public string Titulacao { get; set; }
-        public List<Projeto> Projetos { get; set; }
+
+        //Um Pesquisador só pode atuar em Um Projeto
+        //Nullable para representar que um pesquisador pode existir sem nenhum projeto
+        public Projeto? Projeto { get; set; } 
     }
 }
