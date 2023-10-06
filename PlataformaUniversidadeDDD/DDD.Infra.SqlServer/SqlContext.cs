@@ -25,23 +25,12 @@ namespace DDD.Infra.SQLServer
                 .UsingEntity<Matricula>();
 
 
-            //modelBuilder.Entity<Aluno>()
-            //    .OwnsOne(a => a.Boletim);
-                
-
-            //modelBuilder.Entity<Projeto>()
-            //    .HasMany(e => e.Pesquisadores)
-            //    .WithOne(e => e.Projeto);
-
-
             modelBuilder.Entity<User>().UseTpcMappingStrategy();
             modelBuilder.Entity<Aluno>().ToTable("Aluno");
             modelBuilder.Entity<Pesquisador>().ToTable("Pesquisador");
             //https://learn.microsoft.com/pt-br/ef/core/modeling/inheritance
         }
 
-
-        //public DbSet<Boletim> Boletins { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
         public DbSet<Matricula> Matriculas { get; set; }
