@@ -35,9 +35,6 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.Property<int>("AnosDuracao")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PesquisadorUserId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ProjetoDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -47,8 +44,6 @@ namespace DDD.Infra.SQLServer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ProjetoId");
-
-                    b.HasIndex("PesquisadorUserId");
 
                     b.ToTable("Projetos");
                 });
@@ -87,7 +82,7 @@ namespace DDD.Infra.SQLServer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MatriculaId"));
 
-                    b.Property<int>("AlunoId")
+                    b.Property<int>("AlunoUserId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Data")
@@ -98,7 +93,7 @@ namespace DDD.Infra.SQLServer.Migrations
 
                     b.HasKey("MatriculaId");
 
-                    b.HasIndex("AlunoId");
+                    b.HasIndex("AlunoUserId");
 
                     b.HasIndex("DisciplinaId");
 
@@ -151,9 +146,14 @@ namespace DDD.Infra.SQLServer.Migrations
                 {
                     b.HasBaseType("DDD.Domain.UserManagementContext.User");
 
+                    b.Property<int?>("ProjetoId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Titulacao")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("ProjetoId");
 
                     b.ToTable("Pesquisador", (string)null);
                 });
@@ -165,18 +165,11 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.ToTable("Aluno", (string)null);
                 });
 
-            modelBuilder.Entity("DDD.Domain.PicContext.Projeto", b =>
-                {
-                    b.HasOne("DDD.Domain.PicContext.Pesquisador", null)
-                        .WithMany("Projetos")
-                        .HasForeignKey("PesquisadorUserId");
-                });
-
             modelBuilder.Entity("DDD.Domain.SecretariaContext.Matricula", b =>
                 {
                     b.HasOne("DDD.Domain.SecretariaContext.Aluno", "Aluno")
                         .WithMany()
-                        .HasForeignKey("AlunoId")
+                        .HasForeignKey("AlunoUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -193,7 +186,16 @@ namespace DDD.Infra.SQLServer.Migrations
 
             modelBuilder.Entity("DDD.Domain.PicContext.Pesquisador", b =>
                 {
-                    b.Navigation("Projetos");
+                    b.HasOne("DDD.Domain.PicContext.Projeto", "Projeto")
+                        .WithMany("Pesquisadores")
+                        .HasForeignKey("ProjetoId");
+
+                    b.Navigation("Projeto");
+                });
+
+            modelBuilder.Entity("DDD.Domain.PicContext.Projeto", b =>
+                {
+                    b.Navigation("Pesquisadores");
                 });
 #pragma warning restore 612, 618
         }

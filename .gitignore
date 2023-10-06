@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/PlataformaUniversidadeDDD/DDD.Infra.SQLServer/Migrations/SqlContextModelSnapshot.cs
+/PlataformaUniversidadeDDD/DDD.Infra.SQLServer/Migrations/SqlContextModelSnapshot.cs
